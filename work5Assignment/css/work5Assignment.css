@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    opacity: 96%;
+}
+body {
+    background-color: #0B953D;
+}
+#sectionTimer {
+    width: 50rem;
+    height: 20rem;
+    margin: 15rem auto;
+    margin-bottom: 0.5rem;
+    border-radius: 10rem;
+    padding: 1rem;
+    background: linear-gradient(#c9230d, #d3180b) ;
+    border: 10px double rgba(255, 255, 255, 0.411);
+    text-align: center;
+}
+#sectionTimer h1 {
+    margin-bottom: 0.5rem;
+    color: white;
+    font-size: 2.5rem;
+    opacity: 100%;
+}
+
+#d-day {
+    width: 8rem;
+    height: 1.8rem;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1rem;
+    color: #CC231E;
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1.8rem;
+    position: relative;
+    top: 1.5rem;
+}
+#timer {
+    color: white;
+    font-size: 7rem;
+    font-weight: 900;
+    animation: twinkle 0.5s alternate infinite;
+}
+#millisecond {
+    font-size: 5rem;
+}
+footer {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+@keyframes twinkle {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
